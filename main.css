@@ -149,25 +149,24 @@
 
 .program-item {
   display: flex;
-  background-color: darkblue;;
+  background-color: black;
   align-items: center;
   margin-bottom: 5%;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .program-item img {
-  min-width: 50px;
-  min-height: 50px;
   margin-left: 3%;
 }
 
 .program-item h3{
   color: #ec5242;
   margin-left: 3%;
+  text-align: left;
 }
 
 .program-item p {
   text-align: left;
   margin-left: 3%;
-  width: fit-content;
+  width: 55%;
 }
