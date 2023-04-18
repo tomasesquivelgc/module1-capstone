@@ -179,3 +179,7 @@
   border: none;
   font-size: 1.2rem;
 }
+
+#speaker-profiles {
+  display: flex;
+}
