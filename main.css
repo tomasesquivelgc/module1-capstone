@@ -170,3 +170,12 @@
   margin-left: 3%;
   width: 55%;
 }
+
+.join-btn {
+  width: 50%;
+  height: 10vh;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  border: none;
+  font-size: 1.2rem;
+}
