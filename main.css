@@ -132,13 +132,22 @@
     font-weight: 400;
     display: flex;
     justify-content: center;
+    text-align: center;
+    
 }
 
 .limit-border-bottom {
-    position: absolute;
-    width: 80px;
-    border-bottom: 2px solid #ec5242;
-    height: 10vh;
+  position: absolute;
+  width: 80px;
+  border-bottom: 2px solid #ec5242;
+  height: 10%;
+}
+
+.limit-border-bottom-big {
+  position: absolute;
+  width: 80px;
+  border-bottom: 2px solid #ec5242;
+  height: 15%;
 }
 
 .program-cards {
@@ -222,4 +231,19 @@
 #more-arrow {
   width: 25px;
   padding-left: 1vh;
+}
+
+#about {
+  text-align: center;
+  background-color: lightgray;
+}
+
+#contact-us {
+  margin-bottom: 0;
+  margin-top: 2vh;
+}
+
+#about-email {
+  text-decoration: underline;
+  font-weight: bold;
 }
