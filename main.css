@@ -183,6 +183,10 @@
 #speaker-profiles {
   display: flex;
   flex-direction: column;
+
+}
+
+.hiding {
   height: 100vh;
   overflow: hidden;
 }

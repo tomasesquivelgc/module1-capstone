@@ -47,7 +47,7 @@ function generateSpeakers() {
   const sectionSpeaker = document.getElementById('featured-speakers');
   const newSection = document.createElement('div');
   newSection.id = 'speaker-profiles';
-  newSection.classList.add('pt-5', 'mt-4');
+  newSection.classList.add('pt-5', 'mt-4', 'hiding');
 
   for (const key in speakers){
     const person = speakers[key];
