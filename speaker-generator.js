@@ -42,7 +42,8 @@ function generateSpeakers() {
   const newSection = document.createElement('div');
   newSection.id = 'speaker-profiles';
 
-  for (const person in speakers){
+  for (const key in speakers){
+    const person = speakers[key];
     const newProfile = document.createElement('div');
     newProfile.id = 'person-profile';
     newProfile.innerHTML = `<h3>${person.name}</h3>
