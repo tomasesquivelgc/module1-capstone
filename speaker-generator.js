@@ -35,4 +35,8 @@ const speakers = {
    " Position": "Music journalist and historian",
     "Description": "Alexei is a respected music journalist and historian who has covered electronic music for over two decades. He will share his extensive knowledge of the genre, its history, and its future, and offer insights on how to stay up-to-date with the latest trends and developments.",
   }
+};
+
+function generateSpeakers() {
+  const sectionSpeaker = document.getElementById('featured-speakers');
 }
