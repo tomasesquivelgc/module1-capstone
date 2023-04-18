@@ -247,3 +247,7 @@
   text-decoration: underline;
   font-weight: bold;
 }
+
+footer {
+  display: flex;
+}
