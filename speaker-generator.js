@@ -47,13 +47,13 @@ function generateSpeakers() {
   const sectionSpeaker = document.getElementById('featured-speakers');
   const newSection = document.createElement('div');
   newSection.id = 'speaker-profiles';
-  newSection.classList.add('pt-5', 'mt-4', 'hiding');
+  newSection.classList.add('pt-5', 'mt-4');
 
   for (let i = 0; i < speakers.length; i += 1) {
     const newProfile = document.createElement('div');
     newProfile.id = 'person-profile';
     newProfile.classList.add('pb-5');
-    if(i>=3){
+    if (i >= 2) {
       newProfile.classList.add('hiding');
     }
     newProfile.innerHTML = `<img src=${speakers[i].image} class='person-image' alt='${speakers[i].name}'>

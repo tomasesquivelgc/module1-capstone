@@ -209,10 +209,6 @@ nav a:hover::before {
   width: 30%;
 }
 
-.hiding {
-  display: none;
-}
-
 #person-profile {
   display: flex;
 }
