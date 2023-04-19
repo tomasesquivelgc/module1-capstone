@@ -205,9 +205,12 @@ nav a:hover::before {
   flex-direction: column;
 }
 
+.person-image {
+  width: 30%;
+}
+
 .hiding {
-  height: 100vh;
-  overflow: hidden;
+  display: none;
 }
 
 #person-profile {
