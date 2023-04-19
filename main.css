@@ -278,3 +278,10 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+}
