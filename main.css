@@ -248,6 +248,24 @@
   font-weight: bold;
 }
 
+#logo {
+
+  text-align: center;
+}
+
+#gather-images {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#partners {
+  background-color: #3d3d3d;
+  color: white;
+}
+
 footer {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
