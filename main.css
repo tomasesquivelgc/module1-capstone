@@ -153,6 +153,7 @@ nav a:hover::before {
   display: flex;
   text-align: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .limit-border-bottom {
