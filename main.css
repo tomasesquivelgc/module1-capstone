@@ -113,6 +113,17 @@ nav a:hover::before {
   transform: scale(1);
 }
 
+.flex-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-menu {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
 #home {
   background-color: #d3d3d3;
 }
