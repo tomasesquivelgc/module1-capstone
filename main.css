@@ -150,7 +150,7 @@ nav a:hover::before {
 }
 
 #main-program {
-  background-color: #272a31;
+  background-color: black;
   color: white;
   text-align: center;
 }
@@ -183,14 +183,16 @@ nav a:hover::before {
 
 .program-item {
   display: flex;
-  background-color: black;
+  background-color: #3d3d3d;
   align-items: center;
   margin-bottom: 5%;
   justify-content: space-between;
+  background-image: url("./images/backgrounds/x-background.png");
 }
 
 .program-item img {
   margin-left: 3%;
+  height: 64px;
 }
 
 .program-item p {
@@ -206,6 +208,10 @@ nav a:hover::before {
   color: #d3d3d3;
   border: none;
   font-size: 1.2rem;
+}
+
+#whole-program {
+  display: none;
 }
 
 #speaker-profiles {
@@ -322,5 +328,38 @@ footer {
 
   .flex-menu a:active {
     color: rgb(245, 233, 74)
+  }
+
+  .program-cards {
+    flex-direction: row;
+
+  }
+
+  .program-item {
+    flex-direction: column;
+    margin: 0 2vh;
+    width: 20%;
+    justify-content: flex-start;
+  }
+
+  .program-item img {
+    margin-left: 0;
+    
+  }
+  
+  .program-item p {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #join {
+    display: none;
+  }
+
+  #whole-program {
+    display: block;
+    color: #d3d3d3;
+    margin-top: 5%;
   }
 }
