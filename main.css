@@ -114,15 +114,11 @@ nav a:hover::before {
 }
 
 .flex-navbar {
-  display: flex;
-  justify-content: space-between;
+  display: none;
+ 
 }
 
-.flex-menu {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-}
+
 
 #home {
   background-color: #d3d3d3;
@@ -294,5 +290,39 @@ footer {
   .hamburger {
     display: none;
   }
+  .flex-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .flex-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-buttons {
+    display: flex;
+    width: 60%;
+    height: 80%;
+    justify-content: space-around;
+
+  }
+
+  .flex-menu a {
+    text-decoration: none;
+    color: #272a31;
+    padding: 2vh; 
+  }
+
+  .flex-menu a:hover {
+    color: #ec5242;
+  }
+
+  .flex-menu a:active {
+    color: rgb(245, 233, 74)
+  }
+
+  
 }
