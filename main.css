@@ -323,7 +323,7 @@ footer img {
   .flex-menu a {
     text-decoration: none;
     color: #272a31;
-    padding: 2vh; 
+    padding-right: 10vh; 
   }
 
   .flex-menu a:hover {
