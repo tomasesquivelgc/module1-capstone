@@ -118,10 +118,12 @@ nav a:hover::before {
  
 }
 
-
-
 #home {
-  background-color: #d3d3d3;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.70), rgba(211, 211, 211, 1)),
+  url('./images/backgrounds/background-home-modify.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #home h1 {
@@ -136,7 +138,7 @@ nav a:hover::before {
 
 .home-p {
   border: 2px solid white;
-  background-color: #d3d3d3;
+  background-color: rgb(211, 211, 211);
 }
 
 .program-item h3 {
@@ -220,8 +222,9 @@ nav a:hover::before {
 }
 
 .person-image {
-  width: 30%;
-}
+  width: 200px;
+  height: 200px;
+ }
 
 #person-profile {
   display: flex;
@@ -258,7 +261,11 @@ nav a:hover::before {
 
 #about {
   text-align: center;
-  background-color: lightgray;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.70), rgba(211, 211, 211, 1)),
+  url('./images/backgrounds/background-home-modify.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #contact-us {
@@ -314,7 +321,6 @@ footer img {
 
   .menu-buttons {
     display: flex;
-    width: 60%;
     height: 80%;
     justify-content: space-around;
 
@@ -332,6 +338,10 @@ footer img {
 
   .flex-menu a:active {
     color: rgb(245, 233, 74)
+  }
+
+  #navbar-join {
+    min-width: 15vh;
   }
 
   .program-cards {
@@ -357,6 +367,11 @@ footer img {
     width: 100%;
   }
 
+  .program-item:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
   #join {
     display: none;
   }
@@ -379,11 +394,6 @@ footer img {
 
  #person-profile {
   width: 47%;
- }
-
- .person-image {
-  width: 200px;
-  height: 200px;
  }
 
  #see-more-button {
