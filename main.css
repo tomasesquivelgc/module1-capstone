@@ -370,4 +370,23 @@ footer img {
  .hiding {
   display: flex !important;
  }
+
+ #speaker-profiles{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+ #person-profile {
+  width: 47%;
+ }
+
+ .person-image {
+  width: 200px;
+  height: 200px;
+ }
+
+ #see-more-button {
+  display: none;
+ }
 }
