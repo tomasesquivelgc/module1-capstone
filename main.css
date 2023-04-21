@@ -366,4 +366,8 @@ footer img {
     color: #d3d3d3;
     margin-top: 5%;
   }
+
+ .hiding {
+  display: flex !important;
+ }
 }

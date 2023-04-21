@@ -10,5 +10,4 @@ function seeMoreSpeakers() {
     }
   }
 }
-seeMoreSpeakers();
 seeMoreButton.onclick = seeMoreSpeakers;

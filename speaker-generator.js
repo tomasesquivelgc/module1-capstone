@@ -55,6 +55,7 @@ function generateSpeakers() {
     newProfile.classList.add('pb-5');
     if (i >= 2) {
       newProfile.classList.add('hiding');
+      newProfile.style.display = 'none';
     }
     newProfile.innerHTML = `<img src=${speakers[i].image} class='person-image' alt='${speakers[i].name}'>
                             <div class='person-text'><h3>${speakers[i].name}</h3>
