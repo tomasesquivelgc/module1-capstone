@@ -129,6 +129,7 @@ nav a:hover::before {
 #home h1 {
   font-weight: 900;
   color: #ec5242;
+  font-size: 3em;
 }
 
 #home h2 {
@@ -282,10 +283,25 @@ nav a:hover::before {
   text-align: center;
 }
 
+#big-logo-img {
+  width: 100%;
+}
+
 #gather-images {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+#past-gather-1 {
+  width: 100%;
+}
+
+#gather1-front {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
 }
 
 #partners {
@@ -311,6 +327,8 @@ footer img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    background-color: white;
   }
 
   .flex-menu {
@@ -399,4 +417,6 @@ footer img {
  #see-more-button {
   display: none;
  }
+
+ #gather-images {}
 }
