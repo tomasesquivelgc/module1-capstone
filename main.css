@@ -214,12 +214,12 @@ footer img {
 }
 
 .join-btn {
-  width: 50%;
-  height: 10vh;
+  width: 80%;
   background-color: #ec5242;
   color: #d3d3d3;
   border: none;
   font-size: 1.2rem;
+  padding: 5%;
 }
 
 #whole-program {
@@ -229,11 +229,12 @@ footer img {
 #speaker-profiles {
   display: flex;
   flex-direction: column;
+  font-size: small;
 }
 
 .person-image {
-  width: 200px;
-  height: 200px;
+  width: 40%;
+  height: 40%;
 }
 
 #person-profile {
@@ -242,6 +243,11 @@ footer img {
 
 #person-profile h3 {
   font-weight: bold;
+}
+
+.speaker-position-line {
+  width: 15px;
+  border-bottom: 2px solid #d3d3d3;
 }
 
 #person-profile h4 {
@@ -366,6 +372,7 @@ footer {
   .hamburger {
     display: none;
   }
+
 
   .flex-navbar {
     display: flex;

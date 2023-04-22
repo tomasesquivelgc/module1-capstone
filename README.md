@@ -170,6 +170,8 @@ I would like to thank Microverse for helping me move forward and he following pa
  - https://pixabay.com
  - https://www.freepik.com
 
+And the original author of the template (Cindy Shin)[https://www.behance.net/adagio07]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

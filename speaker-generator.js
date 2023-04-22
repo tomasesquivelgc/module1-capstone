@@ -60,7 +60,8 @@ function generateSpeakers() {
     newProfile.innerHTML = `<img src=${speakers[i].image} class='person-image' alt='${speakers[i].name}'>
                             <div class='person-text'><h3>${speakers[i].name}</h3>
                             <h4>${speakers[i].position}</h4>
-                            <p>${speakers[i].description}</p></div>`;
+                            <div class='speaker-position-line my-2'></div>
+                            <p class='pt-2'>${speakers[i].description}</p></div>`;
     newSection.appendChild(newProfile);
   }
   sectionSpeaker.appendChild(newSection);
