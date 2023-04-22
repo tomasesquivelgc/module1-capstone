@@ -115,12 +115,12 @@ nav a:hover::before {
 
 .flex-navbar {
   display: none;
- 
 }
 
 #home {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.70), rgba(211, 211, 211, 1)),
-  url('./images/backgrounds/background-home-modify.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.7), rgba(211, 211, 211, 1)),
+    url('./images/backgrounds/background-home-modify.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -146,6 +146,11 @@ nav a:hover::before {
   color: #ec5242;
   margin-left: 3%;
   text-align: left;
+}
+
+.event-link h3 {
+  font-size: 2em;
+  font-weight: 900;
 }
 
 #home h3 {
@@ -193,6 +198,10 @@ nav a:hover::before {
   background-image: url("./images/backgrounds/x-background.png");
 }
 
+footer img {
+  width: 50%;
+}
+
 .program-item img {
   margin-left: 3%;
   height: 64px;
@@ -225,7 +234,7 @@ nav a:hover::before {
 .person-image {
   width: 200px;
   height: 200px;
- }
+}
 
 #person-profile {
   display: flex;
@@ -262,8 +271,9 @@ nav a:hover::before {
 
 #about {
   text-align: center;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.70), rgba(211, 211, 211, 1)),
-  url('./images/backgrounds/background-home-modify.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.7), rgba(211, 211, 211, 1)),
+    url('./images/backgrounds/background-home-modify.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -295,7 +305,8 @@ nav a:hover::before {
 
 .event-windows {
   display: flex;
-  flex-direction: column;}
+  flex-direction: column;
+}
 
 .event-link {
   width: 100%;
@@ -317,26 +328,21 @@ nav a:hover::before {
   transition: 1s;
 }
 
-.event-link h3 {
-  font-size: 2em;
-  font-weight: 900;
-}
-
 #event-2022 {
-  background-image: linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)), 
-  url('./images/past-gather/group-friends-spending-time-music-festival.jpg');
+  background-image:
+    linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)),
+    url('./images/past-gather/group-friends-spending-time-music-festival.jpg');
   background-size: contain;
   background-position: center top;
 }
 
 #event-2021 {
-  background-image: linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)),
-  url('./images/past-gather/nightlife-with-people-dancing-club.jpg');
+  background-image:
+    linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)),
+    url('./images/past-gather/nightlife-with-people-dancing-club.jpg');
   background-size: contain;
   background-position: center top;
 }
-
-
 
 #partners {
   background-color: #3d3d3d;
@@ -356,14 +362,11 @@ footer {
   align-items: center;
 }
 
-footer img {
-  width: 50%;
-}
-
 @media (min-width: 768px) {
   .hamburger {
     display: none;
   }
+
   .flex-navbar {
     display: flex;
     justify-content: space-between;
@@ -382,13 +385,12 @@ footer img {
     display: flex;
     height: 80%;
     justify-content: space-around;
-
   }
 
   .flex-menu a {
     text-decoration: none;
     color: #272a31;
-    padding-right: 10vh; 
+    padding-right: 10vh;
   }
 
   .flex-menu a:hover {
@@ -396,7 +398,7 @@ footer img {
   }
 
   .flex-menu a:active {
-    color: rgb(245, 233, 74)
+    color: rgb(245, 233, 74);
   }
 
   #navbar-join {
@@ -405,7 +407,6 @@ footer img {
 
   .program-cards {
     flex-direction: row;
-
   }
 
   .program-item {
@@ -417,9 +418,8 @@ footer img {
 
   .program-item img {
     margin-left: 0;
-    
   }
-  
+
   .program-item p {
     text-align: center;
     margin-left: 0;
@@ -441,32 +441,31 @@ footer img {
     margin-top: 5%;
   }
 
- .hiding {
-  display: flex !important;
- }
+  .hiding {
+    display: flex !important;
+  }
 
- #speaker-profiles{
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
- }
+  #speaker-profiles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
- #person-profile {
-  width: 47%;
- }
+  #person-profile {
+    width: 47%;
+  }
 
- #see-more-button {
-  display: none;
- }
+  #see-more-button {
+    display: none;
+  }
 
- #event-windows{
-  flex-direction: row;
-  display: flex;
-  justify-content: space-between;
- }
+  #event-windows {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.event-link {
-  width: 45%;
-}
-
+  .event-link {
+    width: 45%;
+  }
 }
