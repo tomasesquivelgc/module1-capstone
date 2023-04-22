@@ -113,7 +113,7 @@ nav a:hover::before {
   transform: scale(1);
 }
 
-.flex-navbar {
+.desktop-navbar {
   display: none;
 }
 
@@ -373,12 +373,32 @@ footer {
     display: none;
   }
 
+  .desktop-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+  }
+
+  .black-navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .black-navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .black-navbar button {
+    background-color: #272a31;
+    color: white;
+    border: none;
+  }
 
   .flex-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     background-color: white;
   }
 
