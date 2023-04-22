@@ -37,6 +37,8 @@
 
 In this project I have been tasked to copy a website using everything I've learned throughout the module. Design choices have been restricted to the template, changing only the content.
 
+for a short video explanation of my project (click here)[https://www.loom.com/share/6249f6a6535e4df7a40e9b1624ac3174]
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
