@@ -236,7 +236,7 @@ nav a:hover::before {
 }
 
 #person-profile h4 {
-  color: #ec5242;
+  color: rgb(237, 83, 66);
   font-style: italic;
 }
 
@@ -293,16 +293,50 @@ nav a:hover::before {
   text-align: center;
 }
 
-#past-gather-1 {
+.event-windows {
+  display: flex;
+  flex-direction: column;}
+
+.event-link {
   width: 100%;
+  text-align: center;
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: larger;
 }
 
-#gather1-front {
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  position: absolute;
+.event-link:hover {
+  color: white;
+  border: 2px solid black;
+  font-size: 1.5em;
+  transition: 1s;
 }
+
+.event-link h3 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#event-2022 {
+  background-image: linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)), 
+  url('./images/past-gather/group-friends-spending-time-music-festival.jpg');
+  background-size: contain;
+  background-position: center top;
+}
+
+#event-2021 {
+  background-image: linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)),
+  url('./images/past-gather/nightlife-with-people-dancing-club.jpg');
+  background-size: contain;
+  background-position: center top;
+}
+
+
 
 #partners {
   background-color: #3d3d3d;
@@ -418,5 +452,15 @@ footer img {
   display: none;
  }
 
- #gather-images {}
+ #event-windows{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.event-link {
+  width: 45%;
+  height: 15em;
+}
+
 }
