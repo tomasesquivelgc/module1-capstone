@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Module 1 capstone project</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<body>
+<!-- Navbar --> 
+  <input id="toggle" type="checkbox"></input>
+
+  <label for="toggle" class="hamburger container-fluid px-4">
+    <div class="top-bun border"></div>
+    <div class="meat border"></div>
+    <div class="bottom-bun border"></div>
+  </label>
+
+  <div class="nav">
+    <div class="nav-wrapper">
+      <nav>
+        <a href="home.html">HOME</a><br>
+        <a href="home.html#main-program">PROGRAM</a><br>
+        <a href="home.html#featured-speakers">SPEAKERS</a><br>
+        <a href="home.html#join">JOIN</a>
+        <a href="about.html">ABOUT</a>
+      </nav>
+    </div>
+    </div>
+
+    <div class="desktop-navbar">
+      <div class="container black-navbar">
+        <a href="" class="m-2"><img src="./images/Logo/facebook.png" alt="facebook"></a>
+        <a href="" class="m-2"><img src="./images/Logo/twitter.png" alt="twitter"></a>
+        <button class="m-2">English</button>
+        <button class="m-2">My Page</button>
+        <button class="m-2">Logout</button>
+  
+      </div>
+      <div class="flex-navbar container-fluid px-4">
+        <a class="navbar-brand col-" href="home.html">
+          <img src="./images/Logo/small-logo.png" height="60px" alt="our logo / home">
+        </a>
+        <div class="menu-buttons">
+          <div class="flex-menu">
+            <a href="home.html#main-program">Program</a>
+            <a href="home.html#featured-speakers">Speakers</a>
+            <a href="about.html">About</a>
+            <a href="about.html#partners">Sponsors</a>
+          </div>
+        <button type= "button" class="btn btn-light border-danger rounded-0" id="navbar-join">Join SoA</button>
+        </div>
+      </div>
+    </div>
+<!--About-->
+  <div id="about" class="container-fluid py-5">
+      <div class="container my-5" style="color: #ec5242;">
+        <h3 class="p-4">"Listen! music of the future past"</h3>
+        <h2 style="font-weight: 900;">SOUND OF ANEMOIA </br> RETROWAVE GATHER 2023</h2>
+        </div>
+
+      <div class="container my-3 p-3 home-p bg-light border">
+        <p class="m-0">The annual gathering of synth music enthusiasts is returning for its fourth year, featuring an exciting lineup of speakers, live performances, a music gallery, project crafting workshops, and networking opportunities. Join us for a weekend of exploring the latest gear, techniques, and sounds in the world of electronic music. Don't miss out on this incredible opportunity to connect with like-minded individuals and take your passion for synth music to the next level.</p>
+      </div>
+
+      <div class="container">
+        <p id="contact-us">Please contact us per Email for any further questions about Sound of Anemoia 2023!</p>
+        <p id="about-email">synthsound2023@gmail.com</p>
+      </div>
+    </div>
+  <!--Logo-->
+    <div class="container-fluid my-5 pb-5 border-bottom" id="logo">
+      <div class="section-title">
+        <h2>Sound of Anemoia</br> Retrowave Gather 2023 Logo</h2>
+        <div class="limit-border-bottom-big"></div>
+      </div>
+     <div class="container pt-5">
+        <p>The logo of SoA Retrowave Gather 2023 was decided through the logo competition from 8, June to 7, July.</p>
+        <img src="./images/Logo/small-logo.png" class="border" id="big-logo-img">
+      </div>
+    </div>
+
+  <!--Past gathers-->
+  <div id="past-gathers" class="container mt-5">
+    <div class="section-title">
+      <h2>See the past SoA Retrowave Gathers</h2>
+      <div class="limit-border-bottom"></div>
+    </div>
+    <div class="my-5" id="gather-images">
+      <p>Take a look at the last two SoA Retrowave Gathers which took place in Buenos Aires and in Warsaw.</p>
+      <div id="event-windows">
+        <a id="event-2022" class="event-link my-3" href=''><h3>2022</h3><p>SoA gather 2022 in Buenos Aires</p></a>
+        <a id="event-2021" class="event-link my-3" href=''><h3>2021</h3><p>SoA gather 2021 in Warsaw</p></a>
+      </div>
+    </div>
+  </div>
+
+  <!--Partners-->
+  <div class="container-fluid py-5" id="partners">
+    <div class="section-title">
+      <h2>Partner</h2>
+      <div class="limit-border-bottom"></div>
+    </div>
+    <img src="./images/sponsor/sponsor-background.png" alt="sponsor-image">
+  </div>
+ <!--Footer-->
+ <footer class="my-5 container">
+    <img src="./images/Logo/small-logo.png" alt="event logo">
+      <p>2023 Sound of Anemoia Germany.</br>Some rights reserved.</p>
+  </footer>
+
+  <script src="speaker-generator.js"></script>
+  <script src="see-more-button.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

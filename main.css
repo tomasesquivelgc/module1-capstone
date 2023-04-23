@@ -1,0 +1,498 @@
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0.01%;
+}
+
+#toggle {
+  display: none;
+}
+
+/**
+    Hamburger
+  **/
+.hamburger {
+  position: fixed;
+  top: 5em;
+  margin-top: -45px;
+  width: 2em;
+  height: 45px;
+  z-index: 5;
+}
+
+.hamburger div {
+  position: relative;
+  width: 3em;
+  height: 7px;
+  border-radius: 3px;
+  background-color: #272a31;
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/**
+  Nav Styles
+  **/
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #3d3d3d;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+}
+
+.nav-wrapper {
+  position: absolute;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+nav {
+  padding-top: 10%;
+  width: 100%;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: #ec5242;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 1.25em;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+
+nav a::before {
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 0.25em;
+  background-color: white;
+  left: -0.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a:hover::before {
+  height: 100%;
+}
+
+/**
+  Animations
+  **/
+#toggle:checked + .hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 25px;
+}
+
+#toggle:checked + .hamburger .bottom-bun {
+  opacity: 0;
+  transform: rotate(45deg);
+}
+
+#toggle:checked + .hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -7px;
+}
+
+#toggle:checked + .hamburger + .nav {
+  top: 0;
+  transform: scale(1);
+}
+
+.desktop-navbar {
+  display: none;
+}
+
+#home {
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.7), rgba(211, 211, 211, 1)),
+    url('./images/backgrounds/background-home-modify.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home h1 {
+  font-weight: 900;
+  color: #ec5242;
+  font-size: 3em;
+}
+
+#home h2 {
+  font-weight: 400;
+  color: #ec5242;
+}
+
+.home-p {
+  border: 2px solid white;
+  background-color: rgb(211, 211, 211);
+}
+
+.program-item h3 {
+  color: #ec5242;
+  margin-left: 3%;
+  text-align: left;
+}
+
+.event-link h3 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#home h3 {
+  font-weight: 900;
+}
+
+#main-program {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.limit-border-bottom {
+  width: 80px;
+  border-bottom: 2px solid #ec5242;
+  height: 10%;
+}
+
+.limit-border-bottom-big {
+  width: 80px;
+  border-bottom: 2px solid #ec5242;
+  height: 15%;
+}
+
+.program-cards {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-item {
+  display: flex;
+  background-color: #3d3d3d;
+  align-items: center;
+  margin-bottom: 5%;
+  justify-content: space-between;
+  background-image: url("./images/backgrounds/x-background.png");
+}
+
+footer img {
+  width: 50%;
+}
+
+.program-item img {
+  margin-left: 3%;
+  height: 64px;
+}
+
+.program-item p {
+  text-align: left;
+  margin-left: 3%;
+  width: 55%;
+}
+
+.join-btn {
+  width: 80%;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  border: none;
+  font-size: 1.2rem;
+  padding: 5%;
+}
+
+#whole-program {
+  display: none;
+}
+
+#speaker-profiles {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.person-image {
+  width: 40%;
+  height: 40%;
+}
+
+#person-profile {
+  display: flex;
+}
+
+#person-profile h3 {
+  font-weight: bold;
+}
+
+.speaker-position-line {
+  width: 15px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+#person-profile h4 {
+  color: rgb(237, 83, 66);
+  font-style: italic;
+}
+
+.person-text {
+  margin-left: 4vh;
+}
+
+#see-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+#more-arrow {
+  width: 25px;
+  padding-left: 1vh;
+}
+
+#about {
+  text-align: center;
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.7), rgba(211, 211, 211, 1)),
+    url('./images/backgrounds/background-home-modify.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact-us {
+  margin-bottom: 0;
+  margin-top: 2vh;
+}
+
+#about-email {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#logo {
+  text-align: center;
+}
+
+#big-logo-img {
+  width: 100%;
+}
+
+#gather-images {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.event-windows {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-link {
+  width: 100%;
+  text-align: center;
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.event-link:hover {
+  color: white;
+  border: 2px solid black;
+  font-size: 1.5em;
+  transition: 1s;
+}
+
+#event-2022 {
+  background-image:
+    linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)),
+    url('./images/past-gather/group-friends-spending-time-music-festival.jpg');
+  background-size: contain;
+  background-position: center top;
+}
+
+#event-2021 {
+  background-image:
+    linear-gradient(to bottom, rgb(237, 83, 66, 0.2), rgba(237, 83, 66, 0.7)),
+    url('./images/past-gather/nightlife-with-people-dancing-club.jpg');
+  background-size: contain;
+  background-position: center top;
+}
+
+#partners {
+  background-color: #3d3d3d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#partners img {
+  width: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .desktop-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+  }
+
+  .black-navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .black-navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .black-navbar button {
+    background-color: #272a31;
+    color: white;
+    border: none;
+  }
+
+  .flex-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .flex-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-buttons {
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+  }
+
+  .flex-menu a {
+    text-decoration: none;
+    color: #272a31;
+    padding-right: 10vh;
+  }
+
+  .flex-menu a:hover {
+    color: #ec5242;
+  }
+
+  .flex-menu a:active {
+    color: rgb(245, 233, 74);
+  }
+
+  #navbar-join {
+    min-width: 15vh;
+  }
+
+  .program-cards {
+    flex-direction: row;
+  }
+
+  .program-item {
+    flex-direction: column;
+    margin: 0 2vh;
+    width: 20%;
+    justify-content: flex-start;
+  }
+
+  .program-item img {
+    margin-left: 0;
+  }
+
+  .program-item p {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .program-item:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  #join {
+    display: none;
+  }
+
+  #whole-program {
+    display: block;
+    color: #d3d3d3;
+    margin-top: 5%;
+  }
+
+  .hiding {
+    display: flex !important;
+  }
+
+  #speaker-profiles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #person-profile {
+    width: 47%;
+  }
+
+  #see-more-button {
+    display: none;
+  }
+
+  #event-windows {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .event-link {
+    width: 45%;
+  }
+}
