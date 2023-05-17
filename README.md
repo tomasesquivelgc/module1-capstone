@@ -78,7 +78,7 @@ This project is a website built using:
 
 Visit my Live version here
 
-- [Live Demo Link](https://tomasesquivelgc.github.io/module1-capstone/home)
+- [Live Demo Link](https://tomasesquivelgc.github.io/module1-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
