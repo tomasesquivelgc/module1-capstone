@@ -28,7 +28,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -165,12 +164,12 @@ If you like this project please give it a star and continue supporting my career
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for helping me move forward and he following pages for providing free content for use:
+I would like to thank Microverse for helping me move forward and the following pages for providing free content for use:
  - https://iconos8.es
  - https://pixabay.com
  - https://www.freepik.com
 
-And the original author of the template (Cindy Shin)[https://www.behance.net/adagio07]
+Also the original author of the template (Cindy Shin)[https://www.behance.net/adagio07]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
